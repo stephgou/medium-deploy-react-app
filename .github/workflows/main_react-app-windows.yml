@@ -52,6 +52,6 @@ jobs:
         id: deploy-to-webapp
         with:
           app-name: "testvite"
-          slot-name: ""
+          slot-name: "production"
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE }}
           package: .

@@ -53,5 +53,5 @@ jobs:
         with:
           app-name: "react-app-windows"
           slot-name: "Production"
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_8F931B715D60455EA552B62417DB971E }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE }}
           package: .

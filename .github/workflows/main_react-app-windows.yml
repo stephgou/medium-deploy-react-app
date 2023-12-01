@@ -51,7 +51,7 @@ jobs:
         uses: azure/webapps-deploy@v2
         id: deploy-to-webapp
         with:
-          app-name: "react-app-windows"
-          slot-name: "Production"
+          app-name: "testvite"
+          slot-name: ""
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE }}
           package: .
